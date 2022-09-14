@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Eating-My-Empire/static/css/main.593dd8d5.chunk.css",
+    "main.js": "/Eating-My-Empire/static/js/main.47446a8b.chunk.js",
+    "main.js.map": "/Eating-My-Empire/static/js/main.47446a8b.chunk.js.map",
+    "runtime-main.js": "/Eating-My-Empire/static/js/runtime-main.af0bda7f.js",
+    "runtime-main.js.map": "/Eating-My-Empire/static/js/runtime-main.af0bda7f.js.map",
+    "static/css/2.4c34b247.chunk.css": "/Eating-My-Empire/static/css/2.4c34b247.chunk.css",
+    "static/js/2.04994140.chunk.js": "/Eating-My-Empire/static/js/2.04994140.chunk.js",
+    "static/js/2.04994140.chunk.js.map": "/Eating-My-Empire/static/js/2.04994140.chunk.js.map",
+    "static/js/3.20345cc8.chunk.js": "/Eating-My-Empire/static/js/3.20345cc8.chunk.js",
+    "static/js/3.20345cc8.chunk.js.map": "/Eating-My-Empire/static/js/3.20345cc8.chunk.js.map",
+    "index.html": "/Eating-My-Empire/index.html",
+    "static/css/2.4c34b247.chunk.css.map": "/Eating-My-Empire/static/css/2.4c34b247.chunk.css.map",
+    "static/css/main.593dd8d5.chunk.css.map": "/Eating-My-Empire/static/css/main.593dd8d5.chunk.css.map",
+    "static/js/2.04994140.chunk.js.LICENSE.txt": "/Eating-My-Empire/static/js/2.04994140.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af0bda7f.js",
+    "static/css/2.4c34b247.chunk.css",
+    "static/js/2.04994140.chunk.js",
+    "static/css/main.593dd8d5.chunk.css",
+    "static/js/main.47446a8b.chunk.js"
+  ]
+}
