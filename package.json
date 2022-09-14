@@ -1,18 +1,24 @@
 {
-  "name": "meals-application",
+  "name": "eating-my-empire",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@auth0/auth0-react": "^1.10.2",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
     "node-sass": "^6.0.1",
     "react": "^17.0.2",
+    "react-bootstrap": "^2.5.0",
     "react-dom": "^17.0.2",
+    "react-json-pretty": "^2.2.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^4.0.3",
+    "styled-components": "^5.3.5",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -38,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

@@ -26,10 +26,13 @@ const HomePage = () => {
         {meals? (
           meals.map((meal) => (
             <div className="home-meal" key={meal.idMeal}>
-              <img src={meal.strMealThumb} alt="#" />
+              <img src={meal.strMealThumb}alt="#"/>
+              
               <h4>{meal.strMeal}</h4>
+
             </div>
           ))
+          
         ) : (
           <h2>No meals found! Try another word...</h2>
         )}

@@ -1,4 +1,4 @@
-import React, { useEffect, useContext } from "react";
+import React,{ useEffect,useContext } from "react";
 import { myContext } from "../context/context";
 import './Categories.scss';
 const Categories = () => {

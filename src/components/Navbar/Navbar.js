@@ -1,16 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './Navbar.scss'
+import './Navbar.scss';
+import LoginButton from "../Contact/LoginButton";
+
+
+
 const Navbar = () => {
   return (
-    <div className="navbar">
+    <div className="navbar"  fixed="top" >
       <div className="navbar-heading">
+     
         <h1>
-          Meals <span>App</span>
+          Eating My Empire <span>App</span>
         </h1>
       </div>
       <div className="navbar-links">
+
         <ul>
+        
           <Link to="/">
             {" "}
             <li>Home</li>
@@ -23,10 +30,18 @@ const Navbar = () => {
             {" "}
             <li>Random</li>
           </Link>
+          <Link to="/Contact">
+            {" "}
+            <li>Contact</li>
+            
+            
+          </Link>
+          <LoginButton />
         </ul>
+        
       </div>
+    
     </div>
   );
 };
-
 export default Navbar;
