@@ -1,20 +1,18 @@
 .form{
     min-width: 100%;
     min-height: 100%;
-    color: orangered;
     text-align: right;
 
 }
 .img{
     border-radius: 50%;
     align-items: center;
-    align-content: flex-start;
     
     
 }
 .welcome
 {
-    color: black;
+    color: wheat;
     padding: 10px;
     margin-left: 5em;
   
@@ -29,7 +27,8 @@
     color: #fff;
     background: #dc643f;
     margin-left: 5em;
-    border-radius: 5px;
+    border-radius: 0%;
+    box-shadow: #ccc;
     outline: none;
     font-weight: bold;
     cursor: pointer;
@@ -38,7 +37,8 @@
         box-shadow: 0 1px 3px var(--shadow-color);
         color: #333 ;
         background-color : #ddd;
-    }
+ 
+}
   
     
 }
@@ -52,7 +52,7 @@
     color: #fff;
     background: #dc643f;
     margin-left: 5em;
-    border-radius: 5px;
+    border: radius 0%;;
     outline: none;
     font-weight: bold;
     cursor: pointer;

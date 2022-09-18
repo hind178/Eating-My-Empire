@@ -1,6 +1,6 @@
 .categories {
-  background: #000;
-  color: #fff;
+  background: #ccc;
+  color: rgb(47, 42, 42);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -18,12 +18,12 @@
   }
 
   img {
-    width: 170px;
+    width: 200px;
     margin: 5px;
     transition: all 0.3s ease;
 
     &:hover {
-      transform: scaleY(1.3);
+      transform: scaleY(1.4);
 
     }
   }

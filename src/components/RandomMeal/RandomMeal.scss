@@ -1,8 +1,8 @@
 .random {
     width: 100%;
     height: 100vh;
-    background: #000;
-    color: #fff;
+    background: #ccc;
+    color: rgb(47, 42, 42);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,6 +11,7 @@
   
     img {
       width: 250px;
+      align-items: center;
       border: 1px solid #ccc;
       transition: all 0.4s ease;
       &:hover {
@@ -33,11 +34,10 @@
       padding: 10px;
       color: #fff;
       background: #dc643f;
-      margin-left: -5em;
-      border-radius: 5px;
       outline: none;
       font-weight: bold;
       cursor: pointer;
+      margin-top: 15px;
       transition: all 0.4s ease;
       
       &:hover{

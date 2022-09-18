@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './Navbar.scss';
 import LoginButton from "../Contact/LoginButton";
+import Profile from "../Contact/Profile";
 
 
 
@@ -15,9 +16,7 @@ const Navbar = () => {
         </h1>
       </div>
       <div className="navbar-links">
-
         <ul>
-        
           <Link to="/">
             {" "}
             <li>Home</li>
@@ -30,15 +29,14 @@ const Navbar = () => {
             {" "}
             <li>Random</li>
           </Link>
-          <Link to="/Contact">
+          <Link to="/ContactUs">
             {" "}
-            <li>Contact</li>
-            
-            
+            <li>Contact Us</li>
           </Link>
+
           <LoginButton />
+          <Profile />
         </ul>
-        
       </div>
     
     </div>
